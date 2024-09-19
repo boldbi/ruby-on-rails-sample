@@ -35,7 +35,7 @@ The samples require the following requirements to run.
 
 | **Parameter**  | **Description**                                                                                                                                                                |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **EmbedSecret** | Get your EmbedSecret key from the Embed tab by enabling the `Enable embed authentication` on the [Administration page](https://help.boldbi.com/embedded-bi/site-administration/embed-settings/). |
+| **EmbedSecret** | Get your EmbedSecret key from the Embed tab by enabling the `Enable embed authentication` on the [Administration page](https://help.boldbi.com/embedded-bi/site-administration/embed-settings/?utm_source=github&utm_medium=backlinks). |
 | **UserEmail**   | UserEmail of the Admin in your Bold BI, which would be used to get the dashboard list.                                                                                        |
 
 * To install the rails, run the below command.
@@ -56,12 +56,12 @@ gem install rails
 rails s
 ```
 
-Please refer to the [help documentation](https://help.boldbi.com/embedded-bi/javascript-based/samples/v3.3.40-or-later/ruby-on-rails/#how-to-run-the-sample) to know how to run the sample.
+Please refer to the [help documentation](https://help.boldbi.com/embedded-bi/javascript-based/samples/v3.3.40-or-later/ruby-on-rails/#how-to-run-the-sample?utm_source=github&utm_medium=backlinks) to know how to run the sample.
 
 ## Online Demos
 
-Look at the Bold BI Embedding sample to live demo [here](https://samples.boldbi.com/embed).
+Look at the Bold BI Embedding sample to live demo [here](https://samples.boldbi.com/embed?utm_source=github&utm_medium=backlinks).
 
 ## Documentation
 
-A complete Bold BI Embedding documentation can be found on [Bold BI Embedding Help](https://help.boldbi.com/embedded-bi/javascript-based/).
+A complete Bold BI Embedding documentation can be found on [Bold BI Embedding Help](https://help.boldbi.com/embedded-bi/javascript-based/?utm_source=github&utm_medium=backlinks).
