@@ -38,6 +38,13 @@ The samples require the following requirements to run.
 | **EmbedSecret** | Get your EmbedSecret key from the Embed tab by enabling the `Enable embed authentication` on the [Administration page](https://help.boldbi.com/embedded-bi/site-administration/embed-settings/?utm_source=github&utm_medium=backlinks). |
 | **UserEmail**   | UserEmail of the Admin in your Bold BI, which would be used to get the dashboard list.                                                                                        |
 
+* Please open the database.yml file located at /config/database.yml and •	Replace the following properties to configure your PostgreSQL database connection:
+    | **Parameter** | **Description** |
+    |---------------|--------------------------------------------------------------------------------------------------|
+    |Database| The name of the database you want to connect to. This database must already exist in pgAdmin|
+    |username|The username that PostgreSQL uses to authenticate the connection to the database.|
+    |Password|The password for the PostgreSQL username.|
+    
 * To install the rails, run the below command.
 
 ```bash

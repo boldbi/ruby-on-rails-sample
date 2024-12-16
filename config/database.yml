@@ -23,8 +23,8 @@ default: &default
 development:
   <<: *default
   database: rubyonrails_development
-  username: postgres //Replace your posgtresql user name
-  password: your_password //Replace with posgtresql password
+  username: postgres
+  password: your_password
   host: localhost
 
   # The specified database role being used to connect to PostgreSQL.
