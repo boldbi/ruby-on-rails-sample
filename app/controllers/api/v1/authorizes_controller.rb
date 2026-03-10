@@ -5,10 +5,9 @@ require 'json'
 class Api::V1::AuthorizesController < ApplicationController
     skip_before_action :verify_authenticity_token
     def create 
-        #Get the EmbedSecret key from Bold BI(https://help.syncfusion.com/bold-bi/on-premise/site-settings/embed-settings)
-        @embedSecret = ""
-        #Enter your Bold BI credentials
-        @userEmail = ""
+        cfg = GlobalAppSettings.embed_details
+        @embedSecret = cfg["EmbedSecret"]
+        @userEmail = cfg["UserEmail"]
         @EmbedQueryString = params[:embedQuerString]
         @DashboardServerApiUrl = params[:dashboardServerApiUrl]
         getEmbedDetails
