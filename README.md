@@ -29,13 +29,13 @@ The samples require the following requirements to run.
      ![Embed Settings Download](/images/download-embedsecretkey.png)
      ![EmbedConfig Properties](/images/embedconfig-file.png)
 
-* Copy the downloaded `embedConfig.json` file and paste it into the designated [location](https://github.com/boldbi/ruby-on-rails-sample/tree/Authorization-master) within the application. Please ensure you have placed it in the application, as shown in the following image.
+* Copy the downloaded `embedConfig.json` file and paste it into the designated [location](https://github.com/boldbi/ruby-on-rails-sample/tree/master) within the application. Please ensure you have placed it in the application, as shown in the following image.
 
     ![EmbedConfig image](/images/embedconfig-location.png)
 
 ## Run a Sample Using Command Line Interface or Visual Studio Code
 
-* Open the Ruby on Rails sample folder [location](https://github.com/boldbi/ruby-on-rails-sample/tree/Authorization-master) in terminal.
+* Open the Ruby on Rails sample folder [location](https://github.com/boldbi/ruby-on-rails-sample/tree/master) in terminal.
 
 * Please open the database.yml file located at /config/database.yml and	Replace the following properties to configure your PostgreSQL database connection:
     | **Parameter** | **Description** |
